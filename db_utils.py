@@ -1,8 +1,8 @@
 import mysql.connector
 import configparser
 
-config = configparser.ConfigParser()
-config.read('config.ini')
+config_parser = configparser.ConfigParser()
+config_parser.read('config.ini')
 
 def get_connection():
     config = {
