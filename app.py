@@ -1,6 +1,9 @@
 # app.py
+import os
 import streamlit as st
 from db_utils import get_connection
+
+os.chdir("C:\Users\HP\Desktop\Movie Prod Companies")
 
 def fetch_data():
     try:
