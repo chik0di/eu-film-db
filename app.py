@@ -11,7 +11,7 @@ def get_connection():
     'host': config_parser.get('database', 'host'),
     'user': config_parser.get('database', 'user'),
     'password': config_parser.get('database', 'password'),
-    'database': config_parser.get('database', 'schema'),
+    'database': config_parser.get('database', 'schema')
 }
     try:
         print("Before connection attempt")
