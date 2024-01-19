@@ -1,19 +1,17 @@
 # app.py
 import streamlit as st
+import os
 import mysql.connector
-import configparser
-
-config_parser = configparser.ConfigParser()
-config_parser.read('config.ini')
 
 def get_connection():
-    config = {
-    'host': config_parser.get('database', 'host'),
-    'user': config_parser.get('database', 'user'),
-    'password': config_parser.get('database', 'password'),
-    'database': config_parser.get('database', 'schema')
-}
     try:
+        config = {
+        'host': os.environ.get('myhost'),
+        'user': os.environ.get('user'),
+        'password': os.environ.get('password'),
+        'database': os.environ.get('schema')
+    }
+   
         print("Before connection attempt")
         connection = mysql.connector.connect(**config)
         print("Connection successful")
