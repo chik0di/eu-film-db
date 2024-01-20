@@ -1,7 +1,8 @@
 # app.py
 import streamlit as st
-import mysql.connector
+import pymysql
 import configparser
+import pandas as pd
 
 config_parser = configparser.ConfigParser()
 config_parser.read('config.ini')
@@ -15,9 +16,9 @@ def get_connection():
 }
     try:
         print("Before connection attempt")
-        connection = mysql.connector.connect(**config)
+        connections = pymysql.connect(**config)
         print("Connection successful")
-        return connection
+        return connections
 
     except Exception as e:
         print(f"Error connecting to the database: {e}")
@@ -32,6 +33,8 @@ def fetch_data():
         query = "SELECT * FROM company"
         cursor.execute(query)
         data = cursor.fetchall()
+        column_names = [description[0] for description in cursor.description]
+        df = pd.DataFrame(data, columns=column_names)
 
         # Close the connection
         cursor.close()
