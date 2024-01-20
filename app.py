@@ -40,7 +40,7 @@ def fetch_data():
         cursor.close()
         connection.close()
 
-        return data
+        return df
 
     except Exception as e:
         st.error(f"Error fetching data: {str(e)}")
