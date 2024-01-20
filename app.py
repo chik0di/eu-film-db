@@ -1,7 +1,8 @@
 # app.py
 import streamlit as st
 import os
-import mysql.connector
+import pymysql
+import pandas as pd
 
 def get_connection():
     try:
@@ -13,7 +14,7 @@ def get_connection():
     }
    
         print("Before connection attempt")
-        connection = mysql.connector.connect(**config)
+        connection = pymysql.connect(**config)
         print("Connection successful")
         return connection
 
@@ -30,12 +31,14 @@ def fetch_data():
         query = "SELECT * FROM company"
         cursor.execute(query)
         data = cursor.fetchall()
+        column_names = [description[0] for description in cursor.description]
+        df = pd.DataFrame(data, columns=column_names)
 
         # Close the connection
         cursor.close()
         connection.close()
 
-        return data
+        return df
 
     except Exception as e:
         st.error(f"Error fetching data: {str(e)}")
