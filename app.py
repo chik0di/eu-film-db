@@ -13,14 +13,22 @@ def get_connection():
         'database': os.environ.get('schema')
     }
    
-        print("Before connection attempt")
         connection = pymysql.connect(**config)
         print("Connection successful")
         return connection
+    
 
     except Exception as e:
         print(f"Error connecting to the database: {e}")
         return None
+    
+required_env_vars = ['myhost', 'user', 'password', 'schema']
+
+for var in required_env_vars:
+    if os.environ.get(var) is None:
+        raise ValueError(f"Environment variable {var} is not set.")
+
+
 
 def fetch_data():
     try:
@@ -31,14 +39,12 @@ def fetch_data():
         query = "SELECT * FROM company"
         cursor.execute(query)
         data = cursor.fetchall()
-        column_names = [description[0] for description in cursor.description]
-        df = pd.DataFrame(data, columns=column_names)
 
         # Close the connection
         cursor.close()
         connection.close()
 
-        return df
+        return data
 
     except Exception as e:
         st.error(f"Error fetching data: {str(e)}")
@@ -51,7 +57,11 @@ def main():
     data = fetch_data()
 
     if data is not None:
-        st.write("Fetched Data:", data)
+        st.header("Fetched Data:")
+        st.dataframe(data)
+    else:
+        st.warning("No data to display.")
+
 
 if __name__ == "__main__":
     main()

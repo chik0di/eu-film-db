@@ -1,4 +1,4 @@
-import mysql.connector
+import pymysql
 import configparser
 
 config_parser = configparser.ConfigParser()
@@ -13,7 +13,7 @@ def get_connection():
 }
     try:
         print("Before connection attempt")
-        connection = mysql.connector.connect(**config)
+        connection = pymysql.connect(**config)
         print("Connection successful")
         return connection
 
