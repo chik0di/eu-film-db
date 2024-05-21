@@ -1,20 +1,18 @@
-## Date Created
-
-## Project Title
+# Prokect Title
+Database Development Project for Movie Production Companies in Europe
 
 ## Description
-This is a machine learning application designed to operate on a database, with the objective of discerning the association between various facets of the industry. 
-Read Full Documentation here - 
+Tasked with developing the central, server-side database to support a project that will employ machine learning, neural networks, and other methodologies to extract pertinent information regarding the status and overall condition of movie production companies in Europe. 
+ 
+
+(View Full Documentation)[https://sites.google.com/view/eu-film-db]
 
 ## All Tools Used 
-- MySQL 
+- MySQL
 - Microsoft Access
-- Python 
-
-## Requirements
-- Streamlit
-- mysql-connector-python
-- configparser
+- Python
+- Microsoft Power BI
+- Power Apps 
 
 ## Credits
  https://gist.github.com/stevewithington/20a69c0b6d2ff846ea5d35e5fc47f26c
