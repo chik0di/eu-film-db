@@ -1,11 +1,11 @@
-# Prokect Title
+## Project Title
 Database Development Project for Movie Production Companies in Europe
 
 ## Description
 Tasked with developing the central, server-side database to support a project that will employ machine learning, neural networks, and other methodologies to extract pertinent information regarding the status and overall condition of movie production companies in Europe. 
  
 
-(View Full Documentation)[https://sites.google.com/view/eu-film-db]
+[View Full Documentation](https://sites.google.com/view/eu-film-db)
 
 ## All Tools Used 
 - MySQL
