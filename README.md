@@ -10,7 +10,7 @@ The movie_production_companies database is a comprehensive MySQL-based system de
 - MySQL
 - [Microsoft Power BI](https://app.powerbi.com/view?r=eyJrIjoiOTAxZjBiZDUtZDE1ZC00YzU2LWExODctOTU2MjFhM2ZiY2YyIiwidCI6IjFmZWExNGY1LTNjYjYtNGM1OC1hYjJiLWY4MGU3ZjQ1OWVkMSIsImMiOjh9)
 - Microsoft Access
-- Python
+- Python 
 
 ## Credits
  https://gist.github.com/stevewithington/20a69c0b6d2ff846ea5d35e5fc47f26c
