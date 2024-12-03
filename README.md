@@ -12,5 +12,5 @@ The movie_production_companies database is a comprehensive MySQL-based system de
 - Microsoft Access
 - Python 
 
-## Credits
+## Credits 
  https://gist.github.com/stevewithington/20a69c0b6d2ff846ea5d35e5fc47f26c
