@@ -11,7 +11,7 @@ The movie_production_companies database is a comprehensive MySQL-based system de
 - Microsoft Access
 - Python
 
-# Project Objectives
+## Project Objectives
 
 - Develop a database for a research project focused on movie production companies.
 - Analyze the status of the movie production industry in Europe, including countries like the UK.
@@ -22,31 +22,31 @@ The movie_production_companies database is a comprehensive MySQL-based system de
 - Shareholder information: place of birth, parent's names, personal phone number, national insurance number, and passport number.
 - Registration fee details (e.g., £12 in the UK).
 
-## Employee Data:
+### Employee Data:
 - Affiliated with a single production company.
 - Classified as crew or staff based on roles.
 - Crew roles: actors, directors, producers, editors, costume designers, etc.
 - Staff roles: HR, advertising, and administrative positions.
 - Employee details: ID, name, date of birth, start date, phone number(s), and email address.
 
-## Compensation Details:
+### Compensation Details:
 - Crew: Hourly wages and performance-based bonuses (daily bonuses for actors, completion bonuses for directors).
 - Staff: Monthly salary and designated work hours (e.g., 9 AM–5 PM).
 - Staff department and building information documented.
 
-## Movie Data:
+### Movie Data:
 - Unique movie codes, titles, release years, and first release dates.
 - Co-production tracking for joint ventures between companies.
 - Crew members’ roles and responsibilities documented for each movie.
 
-## Funding and Grants Tracking:
+### Funding and Grants Tracking:
 - Capture grant details: title, funding organization, maximum value, and proposal deadlines.
 - Application status tracking (approved, pending, denied).
 - Grants can be awarded to single or multiple companies.
 
-## Next Steps:
+### Next Steps:
 - Complete the database.
 - Finalize Power BI dashboards and integrate real-time reporting features.
 
-# Credits 
+## Credits 
  https://gist.github.com/stevewithington/20a69c0b6d2ff846ea5d35e5fc47f26c
