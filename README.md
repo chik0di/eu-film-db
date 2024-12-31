@@ -11,7 +11,7 @@ The movie_production_companies database is a comprehensive MySQL-based system de
 - Microsoft Access
 - Python
 
-## Project Objectives
+# Project Objectives
 
 - Develop a database for a research project focused on movie production companies.
 - Analyze the status of the movie production industry in Europe, including countries like the UK.
@@ -46,7 +46,7 @@ The movie_production_companies database is a comprehensive MySQL-based system de
 
 ### Next Steps:
 - Complete the database.
-- Finalize Power BI dashboards and integrate real-time reporting features.
+- Finalize Power BI dashboards and integrate [real-time reporting](https://app.powerbi.com/view?r=eyJrIjoiOTAxZjBiZDUtZDE1ZC00YzU2LWExODctOTU2MjFhM2ZiY2YyIiwidCI6IjFmZWExNGY1LTNjYjYtNGM1OC1hYjJiLWY4MGU3ZjQ1OWVkMSIsImMiOjh9) features.
 
 ## Credits 
  https://gist.github.com/stevewithington/20a69c0b6d2ff846ea5d35e5fc47f26c
