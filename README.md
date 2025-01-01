@@ -16,7 +16,7 @@ The movie_production_companies database is a comprehensive MySQL-based system de
 - Develop a database for a research project focused on movie production companies.
 - Analyze the status of the movie production industry in Europe, including countries like the UK.
 
-### Production Company Data:
+#### Production Company Data:
 - Includes name, address, ZIP code, city, nation, type (e.g., non-profit), number of employees, and net value.
 - Registers details through local government offices (e.g., Companies House in the UK).
 - Shareholder information: place of birth, parent's names, personal phone number, national insurance number, and passport number.
