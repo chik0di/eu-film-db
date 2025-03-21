@@ -1,10 +1,8 @@
 from faker.providers import BaseProvider
-from faker import Faker
-from custom_provider import MovieCompanyNameProvider
 
 class MovieCompanyNameProvider(BaseProvider):
     def movie_company_name(self):
-        # Define a list of custom movie company names
+
         names = ["What's Going On", "Pet Sounds", "Blue", "Songs in the Key of Life", "Abbey Road", "Nevermind", "Rumours", "Purple Rain", "Blood on the Tracks", "The Miseducation of Lauryn Hill", "Revolver", "Thriller", "I Never Loved a Man the Way I Love You", "Exile on Main Street", "It Would Take a Nation of Millions to Hold Us Back", "London Calling", "Kimono My House",
                  "My Beautiful Dark Twisted Fantasy", "Highway 61 Revisited", "To Pimp a Butterfly", "Kid A", "Born to Run", "Ready to Die", "The Velvet Underground & Nico", "Sgt. Pepper's Lonely Hearts Club Band", "Tapestry", "Horses", "Enter the Wu-Tang (36 Chambers)", "Voodoo", "White Album", "Are You Experienced", "Kind of Blue", "Lemonade", "First Take", "Anthology", 
                  "Back to Black", "Innervisions", "Rubber Soul", "Off the Wall", "The Chronic", "Blonde on Blonde", "Remain in Light", "The Rise and Fall of Ziggy Stardust", "Let It Bleed", "OK Computer", "The Low End Theory", "Illmatic", "Sign o' the Times", "Graceland", "Ramones", "Legened", "400 Degreez", "Surrealistic Pillow", "CRTL", "Barrio Fino", "#1 Record", "Sheryl Crowe", 
@@ -32,16 +30,5 @@ class MovieCompanyNameProvider(BaseProvider):
                  "How Will the Wolf Survive", "Confessions", "Sound of Silver", "Crooked Rain, Crooked Rain", "Actually", "All Eyez on Me", "Screamadelica", "Parklife", "Sex Machine", "Coal Miner's Daughter", "Blackout", "Beauty Behind the Madness", "Scary Monsters", "Extraordinary Machine", "Close to the Edge", "Journey in Satchidanada", "X 100pre", "Dictionary of Soul", "Elephant", "Ram", 
                  "Pretty Hate Machine", "Ege Bamyasi", "Bo Diddley/Go Bo Diddley", "Greatest Hits", "I Do Not Want What I Haven't Got", "Southeastern", "Man on the Moon: The End of the Day", "Melodrama", "For Emma", "The Gilded Palace of Sin", "Eli & the 13th Confession", "3 + 3", "The Best of the Classic Years", "The Beach Boys Today", "Blacksummer'snight", "Some Girls", "Clandestino",  
                  "Moanin' in the Moonlight", "Something Else by The Kinks", "Amor Prohibido", "The Weight of These Wings", "If You're Feeling Sinister", "Bizarre Ride II the Pharcyde", "The Anthology", "Born This Way", "I Want to See the Bright Lights Tonight", "Continuum", "Damaged", "The Stooges", "Back to Mono", "Heart Like a Wheel", "Fine Line",  "Straight Outta Compton"]
-        # Return a random name from the list
+
         return self.random_element(names)
-
-
-
-# Create a Faker instance
-fake = Faker()
-
-# Add your custom provider
-fake.add_provider(MovieCompanyNameProvider)
-
-# Now you can use your custom method
-print(fake.movie_company_name())
