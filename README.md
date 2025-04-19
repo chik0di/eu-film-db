@@ -39,6 +39,7 @@ The movie_production_companies database is a comprehensive MySQL-based system de
 - Unique movie codes, titles, release years, and first release dates.
 - Co-production tracking for joint ventures between companies.
 - Crew members’ roles and responsibilities documented for each movie.
+- Genre data for each movie.
 
 #### Funding and Grants Tracking:
 - Capture grant details: title, funding organization, maximum value, and proposal deadlines.
