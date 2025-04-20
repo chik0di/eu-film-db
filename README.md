@@ -10,7 +10,7 @@ The movie_production_companies database is a comprehensive MySQL-based system de
 - [Microsoft Power BI](https://app.powerbi.com/view?r=eyJrIjoiOTAxZjBiZDUtZDE1ZC00YzU2LWExODctOTU2MjFhM2ZiY2YyIiwidCI6IjFmZWExNGY1LTNjYjYtNGM1OC1hYjJiLWY4MGU3ZjQ1OWVkMSIsImMiOjh9)
 - Microsoft Excel
 - Microsoft Access
-- Python
+- Python 
 
 ## Objectives
 
@@ -39,7 +39,7 @@ The movie_production_companies database is a comprehensive MySQL-based system de
 - Unique movie codes, titles, release years, and first release dates.
 - Co-production tracking for joint ventures between companies.
 - Crew members’ roles and responsibilities documented for each movie.
-- Genre data for each movie.
+- Genre data for each movie. A movie can have up to 3 genres. 
 
 #### Funding and Grants Tracking:
 - Capture grant details: title, funding organization, maximum value, and proposal deadlines.
