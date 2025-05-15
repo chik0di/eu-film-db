@@ -1,4 +1,6 @@
-# Database Design and Implementation for Movie Production Companies in Europe
+![Film Production](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGR2d3ZlYjc3cWxtaWE0NnNleDlnMG9xaGx4aXN6bHR3bHo2a2swMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kxKdMAZO0N99S/giphy.gif)
+
+## Database Design and Implementation for Movie Production Companies in Europe
  
 ## Overview 
 The movie_production_companies database is a comprehensive MySQL-based system designed to manage data related to movie production companies across Europe. It serves as a tool for educational purposes, showcasing how entities such as companies, films, employees, shareholders, and financial grants can be efficiently organized and analyzed within the film industry. This project was developed to support research through machine learning and data analytics, providing insights into the industry, including trends on funding and the establishment of new production companies. The database follows strict normalization rules (up to Third Normal Form) to eliminate redundancy and ensure data integrity.
