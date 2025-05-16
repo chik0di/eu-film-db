@@ -1,20 +1,28 @@
-## Database Design and Implementation for Movie Production Companies in Europe
+<h1 align="center">Database Design and Implementation for Movie Production Companies in Europe</h1>
 
-![Film Production](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGR2d3ZlYjc3cWxtaWE0NnNleDlnMG9xaGx4aXN6bHR3bHo2a2swMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kxKdMAZO0N99S/giphy.gif) ![Action](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3Jsa2s3amJsdXdjeTQyYjk2ejJvNWdpdGF2dm1zbDQwMWl6dmczdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Em9cyu8HJBmFSWCRPy/giphy.gif)
- 
-## Overview 
+
+<p align="center">
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGR2d3ZlYjc3cWxtaWE0NnNleDlnMG9xaGx4aXN6bHR3bHo2a2swMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kxKdMAZO0N99S/giphy.gif" width="460" alt="Action" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3Jsa2s3amJsdXdjeTQyYjk2ejJvNWdpdGF2dm1zbDQwMWl6dmczdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Em9cyu8HJBmFSWCRPy/giphy.gif" width="500" alt="film production" />
+  &nbsp;&nbsp;&nbsp;
+</p>
+
+<h1 align="center">Overview </h1>
+
 The movie_production_companies database is a comprehensive MySQL-based system designed to manage data related to movie production companies across Europe. It serves as a tool for educational purposes, showcasing how entities such as companies, films, employees, shareholders, and financial grants can be efficiently organized and analyzed within the film industry. This project was developed to support research through machine learning and data analytics, providing insights into the industry, including trends on funding and the establishment of new production companies. The database follows strict normalization rules (up to Third Normal Form) to eliminate redundancy and ensure data integrity.
  
 [View Full Documentation](https://sites.google.com/view/eu-film-db)
- 
-## Tools & Technologies 
+
+<h1 align="center">Tools & Technologies </h1> 
+
 - MySQL 
 - [Microsoft Power BI](https://app.powerbi.com/view?r=eyJrIjoiOTAxZjBiZDUtZDE1ZC00YzU2LWExODctOTU2MjFhM2ZiY2YyIiwidCI6IjFmZWExNGY1LTNjYjYtNGM1OC1hYjJiLWY4MGU3ZjQ1OWVkMSIsImMiOjh9)
 - Microsoft Excel
 - Microsoft Access
 - Python 
 
-## Objectives
+<h1 align="center">Objectives </h1> 
 
 - Develop a database for a research project focused on movie production companies.
 - Analyze the status of the movie production industry in Europe, including countries like the UK.
