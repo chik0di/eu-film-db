@@ -2,24 +2,27 @@
 
 
 <p align="center">
-  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGR2d3ZlYjc3cWxtaWE0NnNleDlnMG9xaGx4aXN6bHR3bHo2a2swMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kxKdMAZO0N99S/giphy.gif" width="460" alt="Action" />
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGR2d3ZlYjc3cWxtaWE0NnNleDlnMG9xaGx4aXN6bHR3bHo2a2swMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kxKdMAZO0N99S/giphy.gif" width="360" alt="Action" />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3Jsa2s3amJsdXdjeTQyYjk2ejJvNWdpdGF2dm1zbDQwMWl6dmczdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Em9cyu8HJBmFSWCRPy/giphy.gif" width="500" alt="film production" />
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3Jsa2s3amJsdXdjeTQyYjk2ejJvNWdpdGF2dm1zbDQwMWl6dmczdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Em9cyu8HJBmFSWCRPy/giphy.gif" width="380" alt="film production" />
   &nbsp;&nbsp;&nbsp;
 </p>
 
 The movie_production_companies database is a comprehensive MySQL-based system designed to manage data related to movie production companies across Europe. It serves as a tool for educational purposes, showcasing how entities such as companies, films, employees, shareholders, and financial grants can be efficiently organized and analyzed within the film industry. This project was developed to support research through machine learning and data analytics, providing insights into the industry, including trends on funding and the establishment of new production companies. The database follows strict normalization rules (up to Third Normal Form) to eliminate redundancy and ensure data integrity.
- 
-[View Full Documentation](https://sites.google.com/view/eu-film-db)
+
+[![VIEW PROJECT DOCUMENTATION](https://img.shields.io/badge/VIEW%20PROJECT%20DOCUMENTATION-blue?style=for-the-badge&logo=readthedocs&logoColor=white)](https://sites.google.com/view/eu-film-db)
+
 
 <h1 align="center">Tools & Technologies </h1> 
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="150" alt="Python" />
   &nbsp; 
+  <a href="https://github.com/chik0di/eu-film-db/blob/master/DDL.sql" target="_blank" rel="noopener">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" width="150" alt="MySQL" />  
   &nbsp;
 </p>
+
 
 - [Microsoft Power BI](https://app.powerbi.com/view?r=eyJrIjoiOTAxZjBiZDUtZDE1ZC00YzU2LWExODctOTU2MjFhM2ZiY2YyIiwidCI6IjFmZWExNGY1LTNjYjYtNGM1OC1hYjJiLWY4MGU3ZjQ1OWVkMSIsImMiOjh9)
 - Microsoft Excel
@@ -59,11 +62,18 @@ The movie_production_companies database is a comprehensive MySQL-based system de
 - Application status tracking (approved, pending, denied).
 - Grants can be awarded to single or multiple companies.
 
-[Read Full Project Scenario](https://sites.google.com/view/eu-film-db/application-scenario?authuser=0)
+
+[![READ FULL PROJECT REQUIREMENTS](https://img.shields.io/badge/READ%20FULL%20PROJECT%20REQUIREMENTS-brown?style=for-the-badge&logo=storyblok&logoColor=white)](https://sites.google.com/view/eu-film-db/application-scenario?authuser=0)
+
 
 #### Next Steps:
 - Complete the database.
-- Finalize Power BI dashboards and integrate [real-time reporting](https://app.powerbi.com/view?r=eyJrIjoiOTAxZjBiZDUtZDE1ZC00YzU2LWExODctOTU2MjFhM2ZiY2YyIiwidCI6IjFmZWExNGY1LTNjYjYtNGM1OC1hYjJiLWY4MGU3ZjQ1OWVkMSIsImMiOjh9) features.
+- Finalize Power BI dashboards and integrate real-time reporting features.
 
-### Credits 
- https://gist.github.com/stevewithington/20a69c0b6d2ff846ea5d35e5fc47f26c
+
+[![INTERACT WITH DATABASE](https://img.shields.io/badge/INTERACT%20WITH%20DATABASE-gold?style=for-the-badge&logo=database&logoColor=white)](https://app.powerbi.com/view?r=eyJrIjoiOTAxZjBiZDUtZDE1ZC00YzU2LWExODctOTU2MjFhM2ZiY2YyIiwidCI6IjFmZWExNGY1LTNjYjYtNGM1OC1hYjJiLWY4MGU3ZjQ1OWVkMSIsImMiOjh9)
+
+## Credits 
+
+[![Gist File](https://img.shields.io/badge/stevewithington-country%20and%20continent%20codes%20list.csv-brightgreen?style=for-the-badge&logo=github&logoColor=white)](https://gist.github.com/stevewithington/20a69c0b6d2ff846ea5d35e5fc47f26c)
+
