@@ -77,3 +77,12 @@ The movie_production_companies database is a comprehensive MySQL-based system de
 
 [![Gist File](https://img.shields.io/badge/stevewithington-country%20and%20continent%20codes%20list.csv-brightgreen?style=for-the-badge&logo=github&logoColor=white)](https://gist.github.com/stevewithington/20a69c0b6d2ff846ea5d35e5fc47f26c)
 
+[![Powered by Faker](https://img.shields.io/badge/Dummy%20Data-Faker-blueviolet?style=for-the-badge&logo=python&logoColor=white)](https://faker.readthedocs.io/)
+
+[![Diagrams by Lucidchart](https://img.shields.io/badge/Conceptual%20ERD%20Design-Lucidchart-orange?style=for-the-badge&logo=lucidchart&logoColor=white)](https://www.lucidchart.com/)
+
+[![GIFs from GIPHY](https://img.shields.io/badge/GIFs-GIPHY-purple?style=for-the-badge&logo=giphy&logoColor=white)](https://giphy.com/)
+
+[![Badges by Shields.io](https://img.shields.io/badge/Badges-Shields.io-yellow?style=for-the-badge&logo=shieldsdotio)](https://shields.io/)
+
+[![Icons by Devicon](https://img.shields.io/badge/Icons%20by-Devicon-blue?style=for-the-badge&logo=devicon&logoColor=white)](https://devicon.dev/)
