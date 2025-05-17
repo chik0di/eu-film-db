@@ -8,19 +8,22 @@
   &nbsp;&nbsp;&nbsp;
 </p>
 
-<h1 align="center">Overview </h1>
-
 The movie_production_companies database is a comprehensive MySQL-based system designed to manage data related to movie production companies across Europe. It serves as a tool for educational purposes, showcasing how entities such as companies, films, employees, shareholders, and financial grants can be efficiently organized and analyzed within the film industry. This project was developed to support research through machine learning and data analytics, providing insights into the industry, including trends on funding and the establishment of new production companies. The database follows strict normalization rules (up to Third Normal Form) to eliminate redundancy and ensure data integrity.
  
 [View Full Documentation](https://sites.google.com/view/eu-film-db)
 
 <h1 align="center">Tools & Technologies </h1> 
 
-- MySQL 
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="150" alt="Python" />
+  &nbsp; 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" width="150" alt="MySQL" />  
+  &nbsp;
+</p>
+
 - [Microsoft Power BI](https://app.powerbi.com/view?r=eyJrIjoiOTAxZjBiZDUtZDE1ZC00YzU2LWExODctOTU2MjFhM2ZiY2YyIiwidCI6IjFmZWExNGY1LTNjYjYtNGM1OC1hYjJiLWY4MGU3ZjQ1OWVkMSIsImMiOjh9)
 - Microsoft Excel
 - Microsoft Access
-- Python 
 
 <h1 align="center">Objectives </h1> 
 
@@ -55,6 +58,8 @@ The movie_production_companies database is a comprehensive MySQL-based system de
 - Capture grant details: title, funding organization, maximum value, and proposal deadlines.
 - Application status tracking (approved, pending, denied).
 - Grants can be awarded to single or multiple companies.
+
+[Read Full Project Scenario](https://sites.google.com/view/eu-film-db/application-scenario?authuser=0)
 
 #### Next Steps:
 - Complete the database.
