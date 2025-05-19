@@ -16,18 +16,18 @@ The movie_production_companies database is a comprehensive MySQL-based system de
 <h1 align="center">Tools & Technologies </h1> 
 
 <p align="center">
-  <img src="https://img.icons8.com/plasticine/100/google-sheets.png" width="100" alt="Google Sheets" />
+  <img src="https://img.icons8.com/plasticine/100/google-sheets.png" width="80" alt="Google Sheets" />
   &nbsp;&nbsp;
   <a href="https://github.com/chik0di/eu-film-db/blob/master/DDL.sql" target="_blank" rel="noopener">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" width="100" alt="MySQL" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" width="80" alt="MySQL" />
   </a>
   &nbsp;&nbsp;
-  <img src="https://img.icons8.com/color-glass/48/microsoft-access-2019.png" width="100" alt="Microsoft Access" />
+  <img src="https://img.icons8.com/color-glass/48/microsoft-access-2019.png" width="80" alt="Microsoft Access" />
   &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="100" alt="Python" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="80" alt="Python" />
   &nbsp;&nbsp;
   <a href="https://app.powerbi.com/view?r=eyJrIjoiOTAxZjBiZDUtZDE1ZC00YzU2LWExODctOTU2MjFhM2ZiY2YyIiwidCI6IjFmZWExNGY1LTNjYjYtNGM1OC1hYjJiLWY4MGU3ZjQ1OWVkMSIsImMiOjh9" target="_blank" rel="noopener">
-    <img width="100" src="https://img.icons8.com/fluency/48/power-bi-2021.png" alt="power-bi-2021"/>
+    <img width="80" src="https://img.icons8.com/fluency/48/power-bi-2021.png" alt="power-bi-2021"/>
   </a>
 </p>
 
@@ -78,6 +78,8 @@ The movie_production_companies database is a comprehensive MySQL-based system de
 
 
 [![INTERACT WITH DATABASE](https://img.shields.io/badge/INTERACT%20WITH%20DATABASE-gold?style=for-the-badge&logo=database&logoColor=white)](https://app.powerbi.com/view?r=eyJrIjoiOTAxZjBiZDUtZDE1ZC00YzU2LWExODctOTU2MjFhM2ZiY2YyIiwidCI6IjFmZWExNGY1LTNjYjYtNGM1OC1hYjJiLWY4MGU3ZjQ1OWVkMSIsImMiOjh9)
+
+[![DATASET](https://img.shields.io/badge/DATASET%20ON%20KAGGLE-skyblue?style=for-the-badge&logo=database&logoColor=white)](https://www.kaggle.com/datasets/chik0di/movie-production-companies-in-europe) 
 
 ## Credits 
 
