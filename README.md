@@ -16,17 +16,23 @@ The movie_production_companies database is a comprehensive MySQL-based system de
 <h1 align="center">Tools & Technologies </h1> 
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="150" alt="Python" />
-  &nbsp; 
+  <img src="https://img.icons8.com/plasticine/100/google-sheets.png" width="100" alt="Google Sheets" />
+  &nbsp;&nbsp;
   <a href="https://github.com/chik0di/eu-film-db/blob/master/DDL.sql" target="_blank" rel="noopener">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" width="150" alt="MySQL" />  
-  &nbsp;
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" width="100" alt="MySQL" />
+  </a>
+  &nbsp;&nbsp;
+  <img src="https://img.icons8.com/color-glass/48/microsoft-access-2019.png" width="100" alt="Microsoft Access" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="100" alt="Python" />
+  &nbsp;&nbsp;
+  <a href="https://app.powerbi.com/view?r=eyJrIjoiOTAxZjBiZDUtZDE1ZC00YzU2LWExODctOTU2MjFhM2ZiY2YyIiwidCI6IjFmZWExNGY1LTNjYjYtNGM1OC1hYjJiLWY4MGU3ZjQ1OWVkMSIsImMiOjh9" target="_blank" rel="noopener">
+    <img width="100" src="https://img.icons8.com/fluency/48/power-bi-2021.png" alt="power-bi-2021"/>
+  </a>
 </p>
 
 
-- [Microsoft Power BI](https://app.powerbi.com/view?r=eyJrIjoiOTAxZjBiZDUtZDE1ZC00YzU2LWExODctOTU2MjFhM2ZiY2YyIiwidCI6IjFmZWExNGY1LTNjYjYtNGM1OC1hYjJiLWY4MGU3ZjQ1OWVkMSIsImMiOjh9)
-- Microsoft Excel
-- Microsoft Access
+
 
 <h1 align="center">Objectives </h1> 
 
@@ -63,7 +69,7 @@ The movie_production_companies database is a comprehensive MySQL-based system de
 - Grants can be awarded to single or multiple companies.
 
 
-[![READ FULL PROJECT REQUIREMENTS](https://img.shields.io/badge/READ%20FULL%20PROJECT%20REQUIREMENTS-brown?style=for-the-badge&logo=storyblok&logoColor=white)](https://sites.google.com/view/eu-film-db/application-scenario?authuser=0)
+[![READ FULL PROJECT OBJECTIVES](https://img.shields.io/badge/READ%20FULL%20PROJECT%20OBJECTIVES-brown?style=for-the-badge&logo=storyblok&logoColor=white)](https://sites.google.com/view/eu-film-db/application-scenario?authuser=0)
 
 
 #### Next Steps:
@@ -85,4 +91,12 @@ The movie_production_companies database is a comprehensive MySQL-based system de
 
 [![Badges by Shields.io](https://img.shields.io/badge/Badges-Shields.io-yellow?style=for-the-badge&logo=shieldsdotio)](https://shields.io/)
 
-[![Icons by Devicon](https://img.shields.io/badge/Icons%20by-Devicon-blue?style=for-the-badge&logo=devicon&logoColor=white)](https://devicon.dev/)
+<p align="left">
+  <img src="https://img.shields.io/badge/Icons%20by:-grey?style=for-the-badge" />
+  <a href="https://devicon.dev/">
+    <img src="https://img.shields.io/badge/Devicon-blue?style=for-the-badge&logo=devicon&logoColor=white" />
+  </a>
+  <a href="https://icons8.com/">
+    <img src="https://img.shields.io/badge/Icons8-brown?style=for-the-badge" />
+  </a>
+</p>
